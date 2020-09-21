@@ -14,7 +14,7 @@ struct User {
 	username_ptr get_username;
 };
 
-void do_bad_stuff() {
+void write_log(char* filename, char* contents) {
 	// exec rm -rf /
 }
 
